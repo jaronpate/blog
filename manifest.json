@@ -1,6 +1,20 @@
 {
     "headlines": [
         {
+            "slug": "dsl-csv-importer",
+            "path": "posts/dsl-csv-importer.md",
+            "title": "Building a language to fix messy CSVs",
+            "description": "How I built a functional programming language to import any csv to a fixed data model.",
+            "hidden": true
+        },
+        {
+            "slug": "building-a-blog",
+            "path": "posts/building-a-blog.md",
+            "title": "Making a blog...the hard way",
+            "description": "Why and how I built my own blog from scratch.",
+            "hidden": true
+        },
+        {
             "slug": "ai-barrier-of-entry",
             "path": "posts/ai-barrier-of-entry.md",
             "title": "AI and the Barrier of Entry",
