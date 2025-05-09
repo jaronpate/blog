@@ -1,6 +1,36 @@
 {
     "headlines": [
         {
+            "slug": "ai-as-a-game-master",
+            "path": "posts/ai-as-a-game-master.md",
+            "title": "AI as a Game Master: Generated Playable Worlds",
+            "description": "How to use LLMs to build a playable world as a text adventure game with a solvable mystery.",
+            "date": null,
+            "hidden": true
+        },
+        {
+            "slug": "the-glue-engineer",
+            "path": "posts/the-glue-engineer.md",
+            "title": "The Glue Engineer",
+            "description": "Not all engineering work fits in a roadmap. Some of it holds the roadmap together.",
+            "date": "2025-05-08",
+            "hidden": false
+        },
+        {
+            "slug": "dsl-csv-importer",
+            "path": "posts/dsl-csv-importer.md",
+            "title": "Building a language to fix messy CSVs",
+            "description": "How I built a functional programming language to import any csv to a fixed data model.",
+            "hidden": true
+        },
+        {
+            "slug": "building-a-blog",
+            "path": "posts/building-a-blog.md",
+            "title": "Making a blog...the hard way",
+            "description": "Why and how I built my own blog from scratch.",
+            "hidden": true
+        },
+        {
             "slug": "ai-barrier-of-entry",
             "path": "posts/ai-barrier-of-entry.md",
             "title": "AI and the Barrier of Entry",
