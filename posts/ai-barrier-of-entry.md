@@ -2,7 +2,7 @@ We are witnessing the next major wave of technological innovation.
 
 To be fair the term itself, **AI (Artifital Intelligence)**, has had it's meaning stretched pretty thin in the last few years. It's been used to describe everything from a simple chatbot to a self driving car. However I think it's important to understand that such use of the term is extremely broad. Using it this way doesn't truly describe the space that we think of as "AI".
 
-The term AI has become a misnomer. Currently it's not about intelligence, it's about automation. The AI that people are afraid of is not the AI we are building today. That is often considered AGI (Artificial General Intelligence). AGI is the ability for a machine to learn and adapt to new situations. This displays some level of consciousness and is something that we are still a ways from achieving.
+The term AI has become a misnomer. Currently it's not about intelligence, it's about automation. The AI that people are afraid of is not the AI we are building today. That is often considered **AGI (Artificial General Intelligence)**. AGI is the ability for a machine to learn and adapt to new situations. This displays some level of consciousness and is something that we are still a ways from achieving.
 
 The AI models that are most prevalent today are **LLMs (Large Language Models)** and **Stable Diffusion**. I won't go into too much detail here about them but the gist of it is LLMs recieve a text prompt and output new text. On the other hand with Stable Diffusion you input a text prompt and it generates an image. These models both consist of a system of weights that, based on the input, guesses what the desired output is. It quite literally is attempting to determine what next "token" is most statistically likely to be "correct". The correctness being determined by what the model is trained on and how it is trained.
 
@@ -17,7 +17,7 @@ The motivator for this post was actually my first experience using AI in a proje
 ```javascript
 axios.post('https://api.openai.com/v1/completions', {
     model: 'code-davinci-002',
-    prompt: `function customFunction(data){\n //${prompt}\n`,
+    prompt: `function customFunction(data) {\n // ${prompt}\n`,
     suffix: '\nreturn data;\n}',
     temperature: 0.2,
     max_tokens: 512
