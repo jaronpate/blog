@@ -2,9 +2,9 @@
     "name": "@jaronpate/blog",
     "version": "0.0.0",
     "scripts": {
-      "preview": "http-server --cors='*' -c-1 -p=8081 --proxy https://jaronpate.github.io"
+        "preview": "http-server --cors='*' -c-1 -p=8099 --proxy https://jaronpate.github.io"
     },
     "devDependencies": {
-      "http-server": "^14.1.1"
+        "http-server": "^14.1.1"
     }
-  }
+}
