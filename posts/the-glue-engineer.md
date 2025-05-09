@@ -12,6 +12,21 @@ It is a small change. But it removed ambiguity from the process, saved review ti
 
 This is glue work.
 
+<!-- Other intro -->
+<!-- A few days into building Edlink’s billing system, I realized we were not shipping a feature in the usual sense. There was no public launch, no customer demand driving it, and no structured sprint pointing us toward it *(not that we do those here anyway but you get the point)*. **But it needed to be built.**
+
+At the time, our invoices were created manually. Usage data lived in one place, pricing rules in another, and billing logic in someone’s head. When a client upgraded their plan or a data spike changed their bill, it took a mix of spreadsheets, maybe a SQL query, and shared memory to make sure the numbers lined up.
+
+To be clear, this was not a problem that was going to end the company. When you are small, you can get away with a lot and this system worked for a long time before me. Informal or manual processes can work. But as you grow, those processes become a burden. They are the glue that holds everything together, but they can also become your undoing.
+
+We did not set out to build a billing system. It was not blocking development or obviously tied to revenue. But it was fragile. And as the number of clients grew, so did the opportunity for mistakes; or worse, for someone to quietly carry the weight of preventing them. It placed pressure on every team in a subtle, insidious way. It was a burden no one wanted to carry, but everyone felt.
+
+So we built it. From scratch — I will come back to that later. We formalized our pricing model, stitched together usage metrics, and wrote a system that generated accurate, consistent invoices based on automatically collected data. It was not flashy at first, but it reduced the load on those managing accounts, freed engineering from special billing report requests, and let us stop thinking about billing as a manual process altogether.
+
+Now, one person can manage 90% of the billing process from our internal dashboard. We can run reports, monitor usage, and even update pricing without needing to ask anyone else. We still have to maintain it—and it is not perfect (sometimes it breaks)—but it is a huge step forward.
+
+In hindsight, it was not about billing at all. It was about adding **glue** where the team needed it most. -->
+
 ---
 
 As far as I can tell this term was popularized by **Tanya Reilly**, who used it to describe the invisible work that keeps teams running. In her [talk at LeadDev New York (2017)](https://www.youtube.com/watch?v=KClAPipnKqw) she makes a great case for the importance of this work and how it is often overlooked. She also points out that often we do not recognize and reward this work. This essentially leads to these people feeling undervalued and unrecognized and they leave. Perhaps they leave the industry altogether.
