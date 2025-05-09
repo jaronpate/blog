@@ -6,11 +6,11 @@ Everyone’s answers were different—not just in implementation style, but in i
 
 This was not a problem that was blocking hiring. It was not a fire that needed to be put out. But it was noise. Every submission needed extra context to review. Feedback we gave felt inconsistent. Candidates were being evaluated as much on their mind-reading ability as their technical skill and problem-solving abilities.
 
-So I pulled the original prompt and rewrote it—clearly, explicitly, and directly. I packaged it into a single `.js` file that we could send to candidates, with instructions, scaffolding, and a test case included. Now we get consistent, comparable results. And now reviewers can evaluate problem-solving, not guesswork.
+So for each question I pulled the original prompt and rewrote it—clearly, explicitly, and directly. I packaged it into a single `.js` file that we could send to candidates, with instructions, scaffolding, and a test case included. Now we get consistent, comparable results. And now reviewers can evaluate problem-solving, not guesswork.
 
 It is a small change. But it removed ambiguity from the process, saved review time, and made the experience better for both sides of the table.
 
-This is glue work.
+**This is glue work.**
 
 <!-- Other intro -->
 <!-- A few days into building Edlink’s billing system, I realized we were not shipping a feature in the usual sense. There was no public launch, no customer demand driving it, and no structured sprint pointing us toward it *(not that we do those here anyway but you get the point)*. **But it needed to be built.**
